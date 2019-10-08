@@ -1,0 +1,89 @@
+.panel {
+  &__button {
+    display: flex;
+    padding: 12px;
+    width: 272px;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #6b808c;
+    background-color: #dfe1e6;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      color: #505050;
+      background: lightgray;
+
+      path {
+        fill: #505050;
+      }
+    }
+
+    &-add {
+      margin-top: 2px;
+      margin-right: 8px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 12px 0 12px;
+    background-color: #dfe1e6;
+    border-radius: 3px;
+
+    &-text {
+      margin-bottom: 8px;
+      padding: 8px 6px 8px 12px;
+      width: 230px;
+      font-size: 15px;
+      resize: none;
+      box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+      border-radius: 3px;
+      border: none;
+
+      &::placeholder {
+        font-weight: 400;
+        color: #b8b9bb;
+      }
+    }
+
+    &-button-add {
+      margin-bottom: 12px;
+      padding: 7px 8px 7px 8px;
+      width: 152px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #ffffff;
+      background: #39c071;
+      border-radius: 3px;
+      border: none;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        background: #15a715;
+      }
+    }
+
+    &-button-cancel {
+      margin-top: 8px;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        path {
+          fill: #313131;
+        }
+      }
+    }
+  }
+}

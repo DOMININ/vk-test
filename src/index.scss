@@ -1,0 +1,17 @@
+#root,
+.app,
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url("./img/background.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+#root {
+  display: flex;
+  align-items: flex-start;
+}

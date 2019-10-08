@@ -1,0 +1,33 @@
+.panel {
+  margin-top: 21px;
+  margin-right: 12px;
+  width: 272px;
+  height: calc(100% - 40px);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe1e6;
+    max-height: 100%;
+    border-radius: 3px;
+  }
+
+  &:first-child {
+    margin-left: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 8px 12px 8px 12px;
+    font-size: 17px;
+    line-height: 19px;
+    word-wrap: break-word;
+  }
+
+  &__list {
+    overflow: auto;
+    margin: 0;
+    padding: 0 12px 0 12px;
+    list-style: none;
+  }
+}
